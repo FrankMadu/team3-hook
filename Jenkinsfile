@@ -1,5 +1,5 @@
 pipeline {
-    any agent
+    agent any
     stage{
         stage('1-make a left'){
             step{
