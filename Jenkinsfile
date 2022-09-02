@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    stage{
+    stages{
         stage('1-make a left'){
             step{
                 sh 'echo "walk..."'
